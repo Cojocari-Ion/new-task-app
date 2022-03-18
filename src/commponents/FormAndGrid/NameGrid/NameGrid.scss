@@ -1,0 +1,30 @@
+.NameGrid {
+  max-width: 100%;
+  padding: 0 120px;
+  margin-top: 50px;
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    li {
+      background-color: #fff;
+      height: 70px;
+      margin-bottom: 10px;
+      text-align: center;
+      line-height: 40px;
+      text-transform: capitalize;
+      font-size: 20px;
+      font-weight: 600;
+      color: #040c51;
+      border-radius: 10px;
+    }
+  }
+}
